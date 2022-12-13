@@ -35,7 +35,7 @@ Namespace Reporting_Date_Range_Report_Parameters
 			' Assign the settings to the parameter's ValueSourceSettings property.
 			dateRangeParam.ValueSourceSettings = dateRangeSettings
 
-			' Create a report instnace and add the parameter to the report's Parameters collection.
+			' Create a report instance and add the parameter to the report's Parameters collection.
 			Dim report = New XtraReport1()
 			report.Parameters.Add(dateRangeParam)
 
